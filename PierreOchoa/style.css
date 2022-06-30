@@ -1,0 +1,79 @@
+*{
+    margin: 0 auto;
+}
+
+body
+{background-color:#232624;
+    border-color:#0000ff ;
+    border: 50px solid;
+    color:#000000;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+h1{ text-align: center;
+margin-top:60px;
+margin-bottom: 30px;
+color:#03b64d;
+font-weight: 700;
+font-size: 40px;
+text-decoration: underline;}
+
+h2{color:#fcc600;
+    padding:10px;
+font-size: 30px;
+text-decoration:underline;}
+
+div {
+    text-align: center;
+    padding:30px;
+}
+
+.choix
+{
+    display:flex;
+    flex-direction: row;
+}
+.choix img
+    {
+        width: 480px;
+        height: 360px;
+        padding: 10px;
+        border-radius:10px;
+    }
+
+span{
+        color:#0f417b;
+    }
+
+.choix a{
+    border: 2px solid #52217a;
+    border-radius:10px;
+    box-shadow: #8000ff;
+    padding :10px
+
+}
+.Introduction img{
+    border-radius:10px;
+    border :3px solid #0011ff;
+   }
+   .Introduction p{
+    box-shadow:0px 3px 10px#7011be ;
+    margin-top: 20px;
+}
+main{
+    text-align: center;
+    margin-top: 20px;
+}
+.choix p{
+    padding :3px;
+        border: 4px outset rgba(5, 192, 101, 0.563);
+        border: radius 5px;
+        background-color: rgba(5, 192, 101, 0.563);
+    }
+   
+.GameOverCléQuiExplose a
+ {
+    display: flex;
+    flex-direction: column;
+ }
+
